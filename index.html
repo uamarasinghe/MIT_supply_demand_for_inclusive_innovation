@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>MIT Inclusive Innovation Research</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -140,20 +140,46 @@
 
       <!-- Project Three Row -->
       <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
+        <!-- <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
+        </div> -->
+        <!-- <div class="col-lg-6 order-lg-first"> -->
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white text-center">Quantifying the Supply of Innovators</h4>
+                <p class="mb-0 text-white-50">Now that we know which countries are furthest removed from prospering in the digital economy, let’s understand where solutions are being built. The IIC supports companies building solutions in each of the 4 challenge areas. To quantify the global supply of companies addressing each challenge area, we built 4 binary classifiers to predict whether a company is building solutions in one or more of the challenge areas. These classifiers were trained using the text descriptions of Financial Inclusion applicants. Crunchbase was used as our global dataset of companies.</p>
+              
+                <!-- <p lang="latex" class="mb-0 text-white-50">f(company description) = 1, 0; 1 = Financial Inclusion Innovator</p> -->
+
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
-        </div>
+        <!-- </div> -->
+      </div>
+
+
+
+      <!-- Project Three Four -->
+      <div class="row justify-content-center no-gutters">
+        <!-- <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+        </div> -->
+        <!-- <div class="col-lg-6 order-lg-first"> -->
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white text-center">Global Supply Map HERE</h4>
+                <!-- <p class="mb-0 text-white-50">Now that we know which countries are furthest removed from prospering in the digital economy, let’s understand where solutions are being built. The IIC supports companies building solutions in each of the 4 challenge areas. To quantify the global supply of companies addressing each challenge area, we built 4 binary classifiers to predict whether a company is building solutions in one or more of the challenge areas. These classifiers were trained using the text descriptions of Financial Inclusion applicants. Crunchbase was used as our global dataset of companies.</p> -->
+              
+                <!-- <p lang="latex" class="mb-0 text-white-50">f(company description) = 1, 0; 1 = Financial Inclusion Innovator</p> -->
+                <iframe src='fi_global_supply.html' frameborder='0' scrolling = 'no' id = 'iframe_chart_1'></iframe>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
       </div>
 
 
@@ -253,6 +279,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.js"></script>
+
+  <!-- LaTex Script for Math Notation -->
+  <script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
 
 </body>
 
